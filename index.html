@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+  <body>
+  <div class="game">
+    <h1>Игра "Города"</h1>
+
+    <div class="rules">
+      <p>Города не только Казахстана</p>
+      <p>Ошибка в названии = проигрыш</p>
+      <p>Удачи!</p>
+    </div>
+
+    <select id="mode">
+      <option value="bot">Против бота</option>
+      <option value="two">2 игрока</option>
+    </select>
+
+    <input type="text" id="cityInput" placeholder="Введите город">
+    <button id="moveBtn">Ход</button>
+    <button id="restartBtn">Начать заново</button>
+
+    <div id="status"></div>
+    <div id="log"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</body>
+</html>
